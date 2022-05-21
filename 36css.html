@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+} 
+
+input, textarea {
+  width: 100%;
+}
+</style>
+</head>
+<body>
+
+<form action="/action_page.php">
+  First name:<br>
+  <input type="text" name="firstname" value="Mickey"><br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Mouse"><br>
+  Comments:<br>
+  <textarea name="message" rows="5" cols="30">
+  </textarea>
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p><strong>Tip:</strong> Try to remove the box-sizing property from the style element and look what happens.
+Notice that the width of input, textarea, and submit button will go outside of the screen.</p>
+
+</body>
+</html>
+
+

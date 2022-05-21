@@ -1,0 +1,96 @@
+ CSS stands for Cascading Style Sheet. As the name implies CSS is 
+used to apply styles for the elements of a html page.
+
+Syntax:	Selector{property:value;}
+Ex:	h1{background-color:red;}
+
+Ways To define CSS
+
+1)  Inline CSS.
+2)  Internal or Embedded CSS.
+3) External CSS.
+
+Inline CSS:  CSS property in the body section attached with element is known as inline CSS. 
+                    This kind of style is specified within an HTML tag using the style attribute. 
+
+<!doctype html>
+<html>
+<head>
+<title>demo</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<h1 style="background-color:red">INTRODUCTION TO COMPUTERS</h1>
+</body>
+</html>
+
+
+ Internal or Embedded CSS: The CSS rule set should be within the HTML file in the head section 
+
+<!doctype html>
+<html>
+<head>
+<title>demo</title>
+<meta charset="UTF-8">
+<style type="text/css">
+h1
+{
+background-color:blue;
+}
+</style>
+</head>
+<body>
+<h1>INTRODUCTION TO COMPUTERS</h1>
+</body>
+</html>
+
+
+External CSS: contains separate CSS file which contains only style property with the help of tag attributes (For example class, id, heading, … etc). CSS property written in a separate file with .css extension and should be linked to the HTML document using link tag. This means that for each element, style can be set only once and that will be applied across web pages.
+
+Ex: 
+
+mystyle.css
+
+h1
+{
+background-color:cyan;
+}
+
+
+
+<!doctype html>
+<html>
+<head>
+<title>demo</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="/mystyle.css">
+</head>
+<body>
+<h1>INTRODUCTION TO COMPUTERS</h1>
+</body>
+</html>
+
+
+css Class
+
+<!doctype html>
+<html>
+    <head>
+        <title>demo</title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+          .pst
+ {
+     background-color:darkgoldenrod;
+ }           
+        </style>
+    </head>
+<body>
+ <p class="pst">..............................</p>
+
+ <p>.........................................</p>
+
+<p class="pst">.........................</p>
+
+</body>
+</html>
