@@ -1,0 +1,76 @@
+#grad1 {
+  height: 200px;
+  background-image: linear-gradient(red, yellow);
+}
+
+#grad2 {
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+#grad3 {
+  background-image: linear-gradient(180deg, red, yellow);
+}
+
+#grad4 {
+  background-image: linear-gradient(red, yellow, green);
+}
+
+#grad5 {
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+#grad6 {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+
+
+
+
+
+Radial Gradient - Differently Spaced Color Stops
+
+The following example shows a radial gradient with differently spaced color stops:
+Example
+#grad {
+  background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+}
+Set Shape
+
+The shape parameter defines the shape. It can take the value circle or ellipse. The default value is ellipse.
+
+The following example shows a radial gradient with the shape of a circle:
+Example
+#grad {
+  background-image: radial-gradient(circle, red, yellow, green);
+}
+ADVERTISEMENT
+Use of Different Size Keywords
+
+The size parameter defines the size of the gradient. It can take four values:
+
+    closest-side
+    farthest-side
+    closest-corner
+    farthest-corner
+
+Example
+
+A radial gradient with different size keywords:
+#grad1 {
+  background-image: radial-gradient(closest-side at 60% 55%, red, yellow, black);
+}
+
+#grad2 {
+  background-image: radial-gradient(farthest-side at 60% 55%, red, yellow, black);
+}
+Repeating a radial-gradient
+
+The repeating-radial-gradient() function is used to repeat radial gradients:
+Example
+
+A repeating radial gradient:
+#grad {
+  background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+} 
+
