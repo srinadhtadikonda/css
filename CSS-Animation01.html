@@ -5,22 +5,14 @@
 <title>Example of CSS3 Infinite Translate Animation</title>
 <style>
     .box {
-		margin: 50px;
+	background-color:red;
+	margin: 50px;
         width:103px;
-        height:130px;
-        background: url("/examples/images/octopus.png") no-repeat;
+        height:50px;
         position: relative;
-        /* Chrome, Safari, Opera */
-        -webkit-animation: repeatit 2s linear 0s infinite alternate;
-        /* Standard syntax */
         animation: repeatit 2s linear 0s infinite alternate;
     }
-     
-    /* Chrome, Safari, Opera */
-    @-webkit-keyframes repeatit {
-        from {left: 0;}
-        to {left: 50%;}
-    }
+    
      
     /* Standard syntax */
     @keyframes repeatit {
@@ -30,6 +22,6 @@
 </style>
 </head>
 <body>
-    <div class="box"></div>
+    <div class="box">hi</div>
 </body>
 </html>
