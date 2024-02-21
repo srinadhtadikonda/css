@@ -3,11 +3,12 @@
 <head>
 <style>
 .grid-container {
-  display: grid;
+  display: inline-grid;
   grid-template-columns: auto auto auto;
   background-color: #2196F3;
   padding: 10px;
 }
+
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
@@ -19,11 +20,9 @@
 </head>
 <body>
 
-<h1>Grid Elements</h1>
+<h1>display: inline-grid</h1>
 
-<p>A Grid Layout must have a parent element with the <em>display</em> property set to <em>grid</em> or <em>inline-grid</em>.</p>
-
-<p>Direct child element(s) of the grid container automatically becomes grid items.</p>
+<p>Use display: inline-grid; to make an inline grid container:</p>
 
 <div class="grid-container">
   <div class="grid-item">1</div>
