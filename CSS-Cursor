@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <style>
+      .demo-cursor {
+         text-align: center;
+         display: inline-block;
+         width: 100px;
+         height: 100px;
+         margin: 10px;
+         border: 3px solid #ccc;
+         cursor: pointer;
+      }
+
+      .demo-cursor:hover {
+         background-color: lightgrey;
+      }
+
+      .default:hover {
+         cursor: default;
+      }
+      .crosshair {
+         cursor: crosshair;
+      }
+
+      
+    </style>
+</head>
+
+<body>
+   <h2>
+      CSS cursor property
+   </h2>
+   <h3>
+      All CSS Cursors, hover the mouse on the blocks.
+   </h3>
+   <div class="demo-cursor auto">
+      <h3>
+         Auto
+      </h3>
+   </div>
+   <div class="demo-cursor alias">
+      <h3>
+         Alias
+      </h3>
+   </div>
+
+  
+   <div class="demo-cursor crosshair">
+      <h3>
+         Crosshair
+      </h3>
+   </div>
+   
+
+</body>
+
+</html>
