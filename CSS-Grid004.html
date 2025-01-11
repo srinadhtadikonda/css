@@ -1,43 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-.grid-container {
-  display: grid;
-  column-gap: 50px;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+body {
+  background: #e8e8e8;
 }
 
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+.container {
+  padding: 0.5rem;
+  background: #fff;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 100px 100px 100px;
 }
-</style>
+
+.item {
+  background: #e8e8e8;
+  text-align: center;
+  border: 0.5px solid #000
+}
+
+
+    </style>
+    <title>Document</title>
 </head>
 <body>
-
-<h1>The column-gap Property</h1>
-
-<p>Use the <em>column-gap</em> property to adjust the space between the columns:</p>
-
-<div class="grid-container">
-  <div class="grid-item">1</div>
-  <div class="grid-item">2</div>
-  <div class="grid-item">3</div>  
-  <div class="grid-item">4</div>
-  <div class="grid-item">5</div>
-  <div class="grid-item">6</div>  
-  <div class="grid-item">7</div>
-  <div class="grid-item">8</div>
-  <div class="grid-item">9</div>  
-</div>
-
+    <body class="container">
+        <div class="item box1"><p>One</p></div>
+        <div class="item box2"><p>Two</p></div>
+        <div class="item box3"><p>Three</p>
+        </div>
+    </body>
+    
+    </body>
+    
 </body>
 </html>
-
-
