@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background-color: burlywood;
+      font-family: Rockwell, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h4 {
+      background-color: #2C1269;
+      color: white;   
+      text-align: center;
+      padding: 20px;
+      box-shadow: 4px 4px 4px #000000;
+      text-shadow: 2px 2px 2px #000000;
+      font-family: verdana;
+      border: 3px dashed red;
+      border-top-left-radius: 20px;
+      outline: 3px dotted blue;
+      outline-offset: 10px;
+      margin: 20px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* two equal columns */
+      gap: 20px; /* space between columns */
+      padding: 20px;
+    }
+
+    .dv1, .dv2 {
+      background-color: #FBFFEB;
+      padding: 15px;
+      color: chocolate;
+      border-radius: 10px;
+      line-height: 25px;
+      font-weight: bolder;
+      text-align: justify;
+    }
+
+    .img1 {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      margin-top: 20px;
+    }
+
+    /* Responsive for smaller screens */
+    @media (max-width: 900px) {
+      .grid-container {
+        grid-template-columns: 1fr; /* stack columns vertically */
+      }
+    }
+  </style>
+</head>
+<body>
+  <h4>COMPUTER FUNDAMENTALS</h4>
+  <div class="grid-container">
+    <div class="dv1">
+      computer is an electronic device which is used to 
+      do both arithmetical and logical operations. The 
+      word computer is derived from the Greek word compute which
+      means to calculate. computer is an electronic device which is used to 
+      do both arithmetical and logical operations. The 
+      word computer is derived from the Greek word compute which
+      means to calculate.
+      <img class="img1" src="file://c:/mycss/images/img01.jpg" alt="Computer Image">
+    </div>
+    <div class="dv2">
+      computer is an electronic device which is used to 
+      do both arithmetical and logical operations. The 
+      word computer is derived from the Greek word compute which
+      means to calculate. computer is an electronic device which is used to 
+      do both arithmetical and logical operations. The 
+      word computer is derived from the Greek word compute which
+      means to calculate.
+    </div>
+  </div>
+</body>
+</html>
