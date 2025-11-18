@@ -1,0 +1,31 @@
+        <style>
+         body 
+            {
+            background-image:url("file://c:/mycss/images/img01.jpg");  
+            background-repeat: no-repeat;
+            background-size: cover;
+            } 
+        </style>
+
+<style>
+         body 
+            {
+            background-image:url("file://C:/Users/Nipuna/Desktop/mycss/images/img01a.jpg");
+            background-repeat: no-repeat;
+            background-position-x: 400px;
+            background-position-y: 200px;
+            } 
+        </style>
+
+
+
+ <style>
+         body 
+            {
+            background-image:url("file://C:/Users/Nipuna/Desktop/mycss/images/img01a.jpg");
+            background-repeat: no-repeat;
+            background-position-x: 400px;
+            background-position-y: 200px;
+            background-attachment:fixed;
+            } 
+        </style>
