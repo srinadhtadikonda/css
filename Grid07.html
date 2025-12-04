@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>4x4 Grid</title>
+
+<style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-rows: repeat(4, 100px);  /* 4 rows */
+    gap: 5px;
+    width: 420px;
+  }
+
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+</style>
+</head>
+
+<body>
+  <div class="grid-container">
+    <div class="grid-item" style="background-color: red;">1</div>
+    <div class="grid-item" style="background-color: green;">2</div>
+    <div class="grid-item" style="background-color: blue;">3</div>
+    <div class="grid-item" style="background-color: orange;">4</div>
+
+    <div class="grid-item" style="background-color: purple;">5</div>
+    <div class="grid-item" style="background-color: teal;">6</div>
+    <div class="grid-item" style="background-color: brown;">7</div>
+    <div class="grid-item" style="background-color: pink;">8</div>
+
+    <div class="grid-item" style="background-color: gold;">9</div>
+    <div class="grid-item" style="background-color: cyan;">10</div>
+    <div class="grid-item" style="background-color: tomato;">11</div>
+    <div class="grid-item" style="background-color: navy;">12</div>
+
+    <div class="grid-item" style="background-color: lime;">13</div>
+    <div class="grid-item" style="background-color: violet;">14</div>
+    <div class="grid-item" style="background-color: slategray;">15</div>
+    <div class="grid-item" style="background-color: maroon;">16</div>
+  </div>
+</body>
+</html>
